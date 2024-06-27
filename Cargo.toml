@@ -1,0 +1,12 @@
+[package]
+name = "voxel_renderer"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+wgpu = { version = "0.20.0"}
+winit = "0.30.0"
+pollster = "0.3.0"
+async-executor = "1.4.1"
+bytemuck = { version = "1.16.0", features = ["derive"] }  
+cgmath = "0.18.0"
